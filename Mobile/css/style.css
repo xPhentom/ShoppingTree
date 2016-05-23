@@ -1,0 +1,43 @@
+body{
+
+}
+
+#loginknop{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#registreerknop{
+  margin-bottom: 10%;
+}
+
+#loginform{
+  margin-top: 10%;
+}
+
+#zoekbar{
+  margin-top:5%;
+}
+
+img{
+  max-width: 100%;
+}
+
+.shoppinglistitem{
+  height:2%;
+  font-size:0.8em;
+  text-align: right;
+}
+
+.winkelfoto{
+  width:20%;
+  float:left;
+  margin-top: 15%;
+}
+
+#GoogleMaps{
+  width: 100%;
+  height:150px;
+  bottom: 0;
+  position: fixed;
+}
