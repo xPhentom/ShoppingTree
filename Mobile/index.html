@@ -8,24 +8,16 @@
     <!--Import materialize.css-->
     <link rel=stylesheet type=text/css href="css/materialize.min.css" media="screen,projection">
     <link rel=stylesheet type=text/css href="css/style.css">
+
     <!--Laat de browser weten dat het geoptimalizeerd is voor mobiel-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 </head>
 
 <body>
 
     <nav>
         <div class="nav-wrapper">
-            <ul class="right nav-mobile hide-on-med-and-down">
-                <li>
-                    <div class="waves-effect navItems">Student</a>
-                </li>
-                <li>
-                    <div class="waves-effect navItems">Docent</a>
-                </li>
-                <!-- TODO: add delay, om het effect af te spelen -->
-            </ul>
-
+          <a href="#" class="brand-logo"><img src="img/logo.png" id="stlogo"></img>Shopping tree</a>
             </div>
     </nav>
 
@@ -48,9 +40,9 @@
     </div>
 
     <div class="row">
-        <a id="loginknop" class="waves-effect waves-light btn col s8 offset-s2">Login</a>
+        <a id="loginknop" href="Registred/index.html" class="waves-effect waves-light btn col s8 offset-s2">Login</a>
 
-        <a id="registreerknop" class="waves-effect waves-light btn col s8 offset-s2">Register</a>
+        <a id="registreerknop" href="registreer.html" class="waves-effect waves-light btn col s8 offset-s2">Register</a>
 
       <a id="gastknop" href="Unregistred/index.html" class="waves-effect waves-light btn col s6 offset-s3">Proceed as guest</a>
 

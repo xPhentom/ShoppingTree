@@ -9,23 +9,15 @@
     <link rel=stylesheet type=text/css href="../css/materialize.min.css" media="screen,projection">
     <link rel=stylesheet type=text/css href="../css/style.css">
     <!--Laat de browser weten dat het geoptimalizeerd is voor mobiel-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 </head>
 
 <body>
 
     <nav>
         <div class="nav-wrapper">
-            <ul class="right nav-mobile hide-on-med-and-down">
-                <li>
-                    <div class="waves-effect navItems">Student</a>
-                </li>
-                <li>
-                    <div class="waves-effect navItems">Docent</a>
-                </li>
-                <!-- TODO: add delay, om het effect af te spelen -->
-            </ul>
 
+                <a href="#" class="brand-logo"><img src="../img/logo.png" id="stlogo"></img>Shopping tree</a>
 
             </div>
     </nav>
@@ -39,12 +31,18 @@
         </div>
 
 <div class="row">
-  <a id="hm" class="waves-effect waves-light btn col s8 offset-s2 shoppinglistitem"><img src="../img/hm.png" class="winkelfoto">Nieuwstraat 80<br>1000 Brussel<br><div id="afstand">150m</div></a>
+  <a id="hm" href="Winkels/HM/index.html" class="waves-effect waves-light btn col s8 offset-s2 shoppinglistitem"><img src="../img/hm.png" class="winkelfoto">Nieuwstraat 80<br>1000 Brussel<br><div id="afstand">150m</div></a>
+</div>
+
+<div class="row">
+  <a class="waves-effect waves-light btn col s8 offset-s2 shoppinglistitem"><img src="../img/westlandshopping.png" class="winkelfoto"> Sylvain Dupuislaan 433<br>1070 Anderlecht<br><div id="afstand">2km</div></a>
 </div>
 
 <div id="GoogleMaps">
-  <img src="../img/googlemaps.jpg"></img>
+  <img src="../img/googlemaps.jpg" id="googlefoto"></img>
 </div>
+
+<a href="../index.html" class="btn-floating btn-large waves-effect waves-light red terugknop"><i class="material-icons">skip_previous</i></a>
 
 </body>
 

@@ -2,6 +2,15 @@ body{
 
 }
 
+#stlogo{
+  width: 50px;
+  float:left;
+  margin-right: 40px;
+  margin-left: -80px;
+  margin-top:2.5px;
+}
+
+/*Login*/
 #loginknop{
   margin-top: 10%;
   margin-bottom: 10%;
@@ -14,7 +23,7 @@ body{
 #loginform{
   margin-top: 10%;
 }
-
+/*Intro*/
 #zoekbar{
   margin-top:5%;
 }
@@ -39,5 +48,116 @@ img{
   width: 100%;
   height:150px;
   bottom: 0;
+  z-index: 5;
   position: fixed;
+}
+
+/*Shop*/
+
+.shopinfoimg{
+  width:100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#achterscherm{
+  background-color: #b6b6b6;
+  height:20%;
+  padding-top:55px;
+  padding-bottom: 64px;
+  background-image: url("../img/blurred.png");
+  background-repeat: repeat-y;
+  background-color: white;
+  background-size: contain;
+  background-position: center;
+}
+
+#Locatiegeven{
+  float:right;
+  margin-top: -30px;
+  border: 2px solid #388e3c ;
+}
+
+#achterscherm#btn{
+  -webkit-filter: blur(0px);
+-moz-filter: blur(0px);
+-o-filter: blur(0px);
+-ms-filter: blur(0px);
+filter: blur(0px);
+}
+
+#RegistreerVoorMeerInfo{
+  height: 30%;
+  border: 2px solid #388e3c ;
+}
+
+
+#FindProduct{
+  margin-top: 30px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  border: 2px solid #388e3c ;
+}
+
+#fittingroom{
+  margin-top: 20px;
+}
+
+.productimage{
+  width:20%;
+}
+
+.productinfoimg{
+  width:30%;
+}
+
+.productinfoscreen{
+
+}
+
+.productinfoscherm{
+
+}
+
+.productinfomenuitem{
+  margin-bottom: 30px;
+}
+
+.terugknop{
+  margin-left: 25px;
+  margin-top: 25px;
+  z-index:10;
+}
+
+.instockempty{
+  color: #ef5350;
+}
+
+#nostock{
+  margin-top:-32px;
+}
+
+
+
+.nav-wrapper{
+  background-color: #81c784;
+}
+
+.btn{
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid #388e3c ;
+  color:black;
+}
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+  box-shadow: 0 0 0 0 rgba(0,0,0,0),0 2px 10px 0 rgba(0,0,0,0);
+}
+
+.card-panel{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.productinfopaginaknoppen{
+  border: 2px solid #388e3c !important;
 }
